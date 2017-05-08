@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="04/19/17||16:13:17" using="Simscape Multibody Link Version 4.8" from="SolidWorks 24.2.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="beetleBot" uid="beetleBot" version="652">
+<AssemblyFile name="beetleBot.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="backwheelassembly-1" uid="backwheelassembly-1" entityUid="backwheelassembly" rigid="true">
+<Transform>
+<Rotation>-5.7531928870033359e-016 1 -4.0324484670459499e-016 0.67904965884130297 6.8668931905280115e-016 0.73409233807982921 0.73409233807982921 1.4851420620018354e-016 -0.67904965884130297</Rotation>
+<Translation>-0.14926574108507082 0.018153481778398001 0.12660969775702119</Translation>
+</Transform>
+<Instance name="bearing-2" uid="bearing-2" grounded="true" entityUid="bearing*:*Default">
+<Transform>
+<Rotation>0.0076658606535150442 -0.99997061685853605 5.7322015594518922e-016 3.1029780086440966e-016 -5.7085822985079445e-016 -1 0.99997061685853605 0.0076658606535150442 3.0591256369728231e-016</Rotation>
+<Translation>-0.032276573257423377 0.10286782610073976 0.0075552353713987386</Translation>
+</Transform>
+</Instance>
+<Instance name="backaxelcut-1" uid="backaxelcut-1" entityUid="backaxelcut*:*Default">
+<Transform>
+<Rotation>0.99664324145504046 -0.081867266120167093 7.5593013835278133e-016 7.5848186571292645e-016 0 -1 0.081867266120167093 0.99664324145504046 0</Rotation>
+<Translation>-0.032276573257424571 0.22395300319273975 0.0075552353713989329</Translation>
+</Transform>
+</Instance>
+<Instance name="omniwheel-simmechanics-2" uid="omniwheel-simmechanics-2" entityUid="omniwheel-simmechanics*:*Default">
+<Transform>
+<Rotation>0.76431368821834289 0 -0.64484462159660927 0 1 0 0.64484462159660927 0 0.76431368821834289</Rotation>
+<Translation>-0.032276573257423266 -0.0014719968072602618 0.0075552353713986831</Translation>
+</Transform>
+</Instance>
+<Instance name="bearing-1" uid="bearing-1" entityUid="bearing*:*Default">
+<Transform>
+<Rotation>0.75752221845855694 -0.65280938147488854 5.6820786722673395e-016 7.1437678493507544e-016 0 -1 0.65280938147488854 0.75752221845855694 4.3496112167744213e-016</Rotation>
+<Translation>-0.032276573257423238 0.040246753192739709 0.0075552353713986969</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="wheel assembly-2" uid="wheel assembly-2" entityUid="wheel assembly" rigid="true">
+<Transform>
+<Rotation>-6.9509494650363674e-016 -1 -1.3627062876011451e-015 0.81999085621256407 2.1000971933772848e-016 -0.5723766205286398 0.5723766205286398 -1.515262791962595e-015 0.81999085621256407</Rotation>
+<Translation>0.095107486964281424 0.052699384359994259 -0.074193764899972398</Translation>
+</Transform>
+<Instance name="tire-1" uid="tire-1" entityUid="tire*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.049433332985213539 -0.012861855143387696 0.018138716414564382</Translation>
+</Transform>
+</Instance>
+<Instance name="wheel-1" uid="wheel-1" grounded="true" entityUid="wheel*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.049433332985213539 -0.013433355143387712 0.018138716414564382</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="battery mockup-2" uid="battery mockup-2" entityUid="battery mockup*:*Default">
+<Transform>
+<Rotation>1.0000000000000002 0 0 0 0 -1.0000000000000002 0 1 0</Rotation>
+<Translation>-0.025347741895534147 0.0079323261179113213 0.048785332627859307</Translation>
+</Transform>
+</Instance>
+<Instance name="chassis assembly-1" uid="chassis assembly-1" grounded="true" entityUid="chassis assembly" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.067518372768094873 0.034703226950724683 0.0044200909893679224</Translation>
+</Transform>
+<Instance name="bearing stopper x2-2" uid="bearing stopper x2-2" entityUid="bearing stopper x2*:*Default">
+<Transform>
+<Rotation>-6.9388939039072284e-016 1.6631609263161042e-016 1 1 0 6.9388939039072284e-016 0 1 -1.6631609263161042e-016</Rotation>
+<Translation>-0.050506110660425749 -0.062920900832812737 0.068365241638492516</Translation>
+</Transform>
+</Instance>
+<Instance name="bearing stopper x2-3" uid="bearing stopper x2-3" entityUid="bearing stopper x2*:*Default">
+<Transform>
+<Rotation>0 -1.6707558785493833e-016 -1 1 0 0 0 -1 1.6707558785493833e-016</Rotation>
+<Translation>-0.11050611066042597 -0.062920900832812751 0.11836524163849255</Translation>
+</Transform>
+</Instance>
+<Instance name="motor encasing x2-2" uid="motor encasing x2-2" entityUid="motor encasing x2*:*Default">
+<Transform>
+<Rotation>9.1593399531575395e-016 1 -1.4823413814253905e-015 -1 9.1593399531575395e-016 0 0 1.4823413814253905e-015 1</Rotation>
+<Translation>-0.18050611066042552 -0.032920900832813751 -0.092034758361509428</Translation>
+</Transform>
+</Instance>
+<Instance name="chassis_back-1" uid="chassis_back-1" entityUid="chassis_back*:*Default">
+<Transform>
+<Rotation>-7.0812192285941953e-016 1 0 0 0 1.0000000000000002 1 7.0123536140709295e-016 0</Rotation>
+<Translation>-0.080506110660425845 -0.058420900832812775 0.0031652416384926364</Translation>
+</Transform>
+</Instance>
+<Instance name="back axle encasing x2-1" uid="back axle encasing x2-1" entityUid="back axle encasing x2*:*Default">
+<Transform>
+<Rotation>0 0 -1.0000000000000002 0 1.0000000000000002 0 1 0 0</Rotation>
+<Translation>-0.11050611066042597 -0.062920900832812765 0.068365241638492544</Translation>
+</Transform>
+</Instance>
+<Instance name="chassis_center_right-1" uid="chassis_center_right-1" entityUid="chassis_center_right*:*Default">
+<Transform>
+<Rotation>-6.9135543881552603e-016 0.99999999999999989 0 0 0 1 1 6.7912406964171904e-016 0</Rotation>
+<Translation>-0.075506110660425313 -0.058420900832812754 0.00066524163849192297</Translation>
+</Transform>
+</Instance>
+<Instance name="motor encasing x2-1" uid="motor encasing x2-1" entityUid="motor encasing x2*:*Default">
+<Transform>
+<Rotation>-1.055012668524955e-015 -1 7.9892705712288118e-016 -1 1.0020095416095689e-015 -1.8041124150158794e-016 2.0816681711721685e-016 -7.6137327822583958e-016 -1</Rotation>
+<Translation>0.019493889339574313 -0.032920900832813092 -0.092034758361508678</Translation>
+</Transform>
+</Instance>
+<Instance name="chassis_center_left-1" uid="chassis_center_left-1" entityUid="chassis_center_left*:*Default">
+<Transform>
+<Rotation>4.6629367034256575e-015 1 0 0 0 1 1 -4.5519144009631418e-015 0</Rotation>
+<Translation>-0.085506110660426987 -0.058420900832813344 0.00066524163849259604</Translation>
+</Transform>
+</Instance>
+<Instance name="top plate-1" uid="top plate-1" entityUid="top plate*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="back axle encasing x2-2" uid="back axle encasing x2-2" entityUid="back axle encasing x2*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 -1.1102230246251564e-016 -1 0 -1.6359392676088956e-016</Rotation>
+<Translation>-0.05050611066042579 -0.062920900832812737 0.11836524163849253</Translation>
+</Transform>
+</Instance>
+<Instance name="bottom plate-1" uid="bottom plate-1" entityUid="bottom plate*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-5.5511151231257827e-016 -0.066350000000000006 1.6349768761081407e-015</Translation>
+</Transform>
+</Instance>
+<Instance name="chassis_front-1" uid="chassis_front-1" grounded="true" entityUid="chassis_front*:*Default">
+<Transform>
+<Rotation>-7.3552275381416621e-016 1 0 0 -1.3823304857529738e-016 1 1.0000000000000002 7.6327832942979512e-016 0</Rotation>
+<Translation>-0.080506110660425706 -0.058420900832812761 -0.0018347583615085372</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="backwheelassembly-2" uid="backwheelassembly-2" entityUid="backwheelassembly" rigid="true">
+<Transform>
+<Rotation>6.5494860835716776e-016 -1 6.524297737732765e-016 0.87284365158465205 8.9005343770656787e-016 0.48799995890201764 -0.48799995890201764 2.4985429218158357e-016 0.87284365158465205</Rotation>
+<Translation>0.12329026530040883 0.026267773629823254 0.075439826974586593</Translation>
+</Transform>
+<Instance name="bearing-2" uid="bearing-2" grounded="true" entityUid="bearing*:*Default">
+<Transform>
+<Rotation>0.0076658606535149306 -0.99997061685853594 5.7322015594518942e-016 3.1029780086440946e-016 -5.7085822985079435e-016 -1 0.99997061685853594 0.0076658606535149306 3.0591256369728231e-016</Rotation>
+<Translation>-0.032276573257423377 0.10286782610073977 0.0075552353713987525</Translation>
+</Transform>
+</Instance>
+<Instance name="backaxelcut-1" uid="backaxelcut-1" entityUid="backaxelcut*:*Default">
+<Transform>
+<Rotation>0.99664324145504035 -0.081867266120167009 7.5593013835278123e-016 7.5848186571292595e-016 0 -1 0.081867266120167009 0.99664324145504035 0</Rotation>
+<Translation>-0.03227657325742455 0.22395300319273975 0.0075552353713989329</Translation>
+</Transform>
+</Instance>
+<Instance name="omniwheel-simmechanics-2" uid="omniwheel-simmechanics-2" entityUid="omniwheel-simmechanics*:*Default">
+<Transform>
+<Rotation>0.76431368821834278 0 -0.64484462159660905 0 1 0 0.64484462159660905 0 0.76431368821834278</Rotation>
+<Translation>-0.032276573257423245 -0.0014719968072602896 0.0075552353713986831</Translation>
+</Transform>
+</Instance>
+<Instance name="bearing-1" uid="bearing-1" entityUid="bearing*:*Default">
+<Transform>
+<Rotation>0.75752221845855683 -0.65280938147488843 5.6820786722673386e-016 7.1437678493507514e-016 0 -1 0.65280938147488843 0.75752221845855683 4.3496112167744198e-016</Rotation>
+<Translation>-0.032276573257423224 0.040246753192739709 0.0075552353713986831</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="wheel assembly-1" uid="wheel assembly-1" entityUid="wheel assembly" rigid="true">
+<Transform>
+<Rotation>1.220881782004867e-015 1 -7.9871602423304597e-016 -0.59016108762217223 0 -0.80728550752296735 -0.80728550752296735 1.456971286573976e-015 0.59016108762217223</Rotation>
+<Translation>-0.12108296274894292 -0.01274818055488465 -0.13822624528695124</Translation>
+</Transform>
+<Instance name="tire-1" uid="tire-1" entityUid="tire*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.049433332985213546 -0.01286185514338771 0.018138716414564382</Translation>
+</Transform>
+</Instance>
+<Instance name="wheel-1" uid="wheel-1" grounded="true" entityUid="wheel*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.049433332985213546 -0.013433355143387712 0.018138716414564389</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="motor and wheel assembly-2" uid="motor and wheel assembly-2" entityUid="motor and wheel assembly" rigid="true">
+<Transform>
+<Rotation>-1.5055427011854423e-015 -2.1017450188686459e-016 1 2.0816681711721532e-016 -1.0000000000000002 -2.1017450188686432e-016 1.0000000000000002 2.0816681711721498e-016 1.5055427011854419e-015</Rotation>
+<Translation>0.020817655341790701 0.0044443287101289461 -0.023126528355381065</Translation>
+</Transform>
+<Instance name="motor assembly-1" uid="motor assembly-1" grounded="true" entityUid="motor assembly" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.042083390479717771 0.0051110449772977162 0.020184463069335998</Translation>
+</Transform>
+<Instance name="motor mount-1" uid="motor mount-1" entityUid="motor mount" rigid="true">
+<Transform>
+<Rotation>0 0 -1 1 0 0 0 -1 0</Rotation>
+<Translation>-0.025019922876367687 0.0040302610244504827 0.047750430414113143</Translation>
+</Transform>
+<Instance name="motor mount-1" uid="motor mount-1" entityUid="motor mount*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0064793034095311855 0.0017739067175706613 -0.0026151743393256766</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="motor mockup-1" uid="motor mockup-1" grounded="true" entityUid="motor mockup*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.02240474853704201 -0.0024490423850807028 -0.035663476303457536</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="motor and wheel assembly-1" uid="motor and wheel assembly-1" entityUid="motor and wheel assembly" rigid="true">
+<Transform>
+<Rotation>1.4259569679928737e-015 0 -1 1.1102230246251565e-016 -1 0 -1 -1.1102230246251565e-016 -1.4259569679928735e-015</Rotation>
+<Translation>-0.046793131126452156 0.0044443287101282834 -0.15210280638890109</Translation>
+</Transform>
+<Instance name="motor assembly-1" uid="motor assembly-1" grounded="true" entityUid="motor assembly" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.042083390479717778 0.0051110449772977136 0.020184463069335988</Translation>
+</Transform>
+<Instance name="motor mount-1" uid="motor mount-1" entityUid="motor mount" rigid="true">
+<Transform>
+<Rotation>0 0 -1 1 0 0 0 -1 0</Rotation>
+<Translation>-0.025019922876367673 0.0040302610244504818 0.047750430414113157</Translation>
+</Transform>
+<Instance name="motor mount-1" uid="motor mount-1" entityUid="motor mount*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0064793034095311829 0.0017739067175706752 -0.0026151743393256904</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="motor mockup-1" uid="motor mockup-1" grounded="true" entityUid="motor mockup*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.022404748537041996 -0.0024490423850807019 -0.035663476303457529</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>chassis assembly-1</Uid>
+<Uid>motor encasing x2-2</Uid>
+</InstancePath>
+<Position>-3.0205872525446154e-016 0.024999999999999925 0</Position>
+<Axis>9.4368957093137399e-016 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor and wheel assembly-1</Uid>
+<Uid>motor assembly-1</Uid>
+<Uid>motor mockup-1</Uid>
+</InstancePath>
+<Position>0 0 0.098300000000000026</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>chassis assembly-1</Uid>
+<Uid>motor encasing x2-2</Uid>
+</InstancePath>
+<Position>0.016699229999999871 0 0.016208416691420577</Position>
+<Axis>-1 9.4368957093137399e-016 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor and wheel assembly-1</Uid>
+<Uid>motor assembly-1</Uid>
+<Uid>motor mount-1</Uid>
+<Uid>motor mount-1</Uid>
+</InstancePath>
+<Position>0.016699230000000197 0.0025400000000000006 0.016459199999999993</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>chassis assembly-1</Uid>
+<Uid>motor encasing x2-2</Uid>
+</InstancePath>
+<Position>-3.1225022567582528e-016 0.014249999999999929 0</Position>
+<Axis>-9.4368957093137399e-016 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor and wheel assembly-1</Uid>
+<Uid>motor assembly-1</Uid>
+<Uid>motor mount-1</Uid>
+<Uid>motor mount-1</Uid>
+</InstancePath>
+<Position>0 0.014216380000000001 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>chassis assembly-1</Uid>
+<Uid>motor encasing x2-1</Uid>
+</InstancePath>
+<Position>-3.0075768264747893e-016 0.024999999999999925 0</Position>
+<Axis>9.9669269784675992e-016 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor and wheel assembly-2</Uid>
+<Uid>motor assembly-1</Uid>
+<Uid>motor mockup-1</Uid>
+</InstancePath>
+<Position>0 0 0.098299999999999998</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>chassis assembly-1</Uid>
+<Uid>motor encasing x2-1</Uid>
+</InstancePath>
+<Position>0.016699229999999871 0 0.016208416691420577</Position>
+<Axis>-1 8.9068644401598805e-016 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor and wheel assembly-2</Uid>
+<Uid>motor assembly-1</Uid>
+<Uid>motor mount-1</Uid>
+<Uid>motor mount-1</Uid>
+</InstancePath>
+<Position>0.016699230000000204 0.0025400000000000006 0.016459200000000021</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>chassis assembly-1</Uid>
+<Uid>motor encasing x2-1</Uid>
+</InstancePath>
+<Position>-3.1138286393783687e-016 0.014249999999999929 0</Position>
+<Axis>-9.9669269784675992e-016 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor and wheel assembly-2</Uid>
+<Uid>motor assembly-1</Uid>
+<Uid>motor mount-1</Uid>
+<Uid>motor mount-1</Uid>
+</InstancePath>
+<Position>0 0.014216380000000001 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident21">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>chassis assembly-1</Uid>
+<Uid>back axle encasing x2-2</Uid>
+</InstancePath>
+<Position>0.050000000000000017 0 0.070000000000000007</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>battery mockup-2</Uid>
+</InstancePath>
+<Position>0 0.023999999999999994 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident24">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>chassis assembly-1</Uid>
+<Uid>chassis_center_left-1</Uid>
+</InstancePath>
+<Position>0.050464188061620931 -0.084999999999999604 0</Position>
+<Axis>-2.3416033837440437e-016 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>battery mockup-2</Uid>
+</InstancePath>
+<Position>-0.077639995996796829 0.012000000000000004 0.021149999999999995</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident42">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>chassis assembly-1</Uid>
+<Uid>chassis_center_left-1</Uid>
+</InstancePath>
+<Position>0 0 0.0085000000000000006</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>battery mockup-2</Uid>
+</InstancePath>
+<Position>-0.077650000000000025 0.023999999999999994 0.02315</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident48">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>chassis assembly-1</Uid>
+<Uid>back axle encasing x2-1</Uid>
+</InstancePath>
+<Position>0.025000000000000008 0.030000000000000013 0.062062500000000048</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>backwheelassembly-1</Uid>
+<Uid>bearing-1</Uid>
+</InstancePath>
+<Position>0 0.012287500000000007 -0.003968750000000007</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>chassis assembly-1</Uid>
+<Uid>back axle encasing x2-1</Uid>
+</InstancePath>
+<Position>0.025000000000000008 0.030000000000000013 0.062062500000000048</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>backwheelassembly-1</Uid>
+<Uid>bearing-1</Uid>
+</InstancePath>
+<Position>0 0 0.053248915139807243</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>chassis assembly-1</Uid>
+<Uid>back axle encasing x2-2</Uid>
+</InstancePath>
+<Position>0.025000000000000022 0.029999999999999992 0.062062500000000007</Position>
+<Axis>0 -1.1102230246251565e-016 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>backwheelassembly-2</Uid>
+<Uid>bearing-1</Uid>
+</InstancePath>
+<Position>0 0 0.053248915139807243</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident49">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>chassis assembly-1</Uid>
+<Uid>back axle encasing x2-2</Uid>
+</InstancePath>
+<Position>0.025000000000000022 0.029999999999999992 0.062062500000000007</Position>
+<Axis>0 -1.1102230246251565e-016 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>backwheelassembly-2</Uid>
+<Uid>bearing-1</Uid>
+</InstancePath>
+<Position>0 0.012287499999999993 -0.0039687499999999931</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor and wheel assembly-1</Uid>
+<Uid>motor assembly-1</Uid>
+<Uid>motor mockup-1</Uid>
+</InstancePath>
+<Position>0 0 0.098300000000000026</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>beetleBot</Uid>
+</InstancePath>
+<Position>-0.1264391178923307 0.0017823261179111453 -0.087614667372141714</Position>
+<Axis>-1 0 -1.456971286573976e-015</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident50">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor and wheel assembly-1</Uid>
+<Uid>motor assembly-1</Uid>
+<Uid>motor mockup-1</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999983 0.098300000000000026</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>beetleBot</Uid>
+</InstancePath>
+<Position>-0.12961411789233071 -0.0079377613199148669 -0.084771182237687509</Position>
+<Axis>-1 0 -1.456971286573976e-015</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric9">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor and wheel assembly-2</Uid>
+<Uid>motor assembly-1</Uid>
+<Uid>motor mockup-1</Uid>
+</InstancePath>
+<Position>0 0 0.098299999999999998</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>beetleBot</Uid>
+</InstancePath>
+<Position>0.10046364210766921 0.0017823261179119663 -0.087614667372140687</Position>
+<Axis>1 -2.1000970366534195e-016 1.5152626587384635e-015</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident51">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor and wheel assembly-2</Uid>
+<Uid>motor assembly-1</Uid>
+<Uid>motor mockup-1</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999996 0.098299999999999998</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>beetleBot</Uid>
+</InstancePath>
+<Position>0.1036386421076692 -0.0044848142333458029 -0.079659262962151103</Position>
+<Axis>1 -2.1000970366534195e-016 1.5152626587384635e-015</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor and wheel assembly-2</Uid>
+<Uid>motor assembly-1</Uid>
+<Uid>motor mockup-1</Uid>
+</InstancePath>
+<Position>0 0 0.098299999999999998</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>wheel assembly-2</Uid>
+<Uid>wheel-1</Uid>
+</InstancePath>
+<Position>0 0.0049021999999999955 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident52">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor and wheel assembly-2</Uid>
+<Uid>motor assembly-1</Uid>
+<Uid>motor mockup-1</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999996 0.098299999999999998</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>wheel assembly-2</Uid>
+<Uid>wheel-1</Uid>
+</InstancePath>
+<Position>0 0.0049021999999999955 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor and wheel assembly-1</Uid>
+<Uid>motor assembly-1</Uid>
+<Uid>motor mockup-1</Uid>
+</InstancePath>
+<Position>0 0 0.098300000000000026</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>wheel assembly-1</Uid>
+<Uid>wheel-1</Uid>
+</InstancePath>
+<Position>0 0.0049021999999999955 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident53">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor and wheel assembly-1</Uid>
+<Uid>motor assembly-1</Uid>
+<Uid>motor mockup-1</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999983 0.098300000000000026</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>wheel assembly-1</Uid>
+<Uid>wheel-1</Uid>
+</InstancePath>
+<Position>0 0.0049021999999999955 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="backwheelassembly" uid="backwheelassembly" version="305">
+<ModelUnits mass="kilogram" length="inch"/>
+<AssemblyFile name="backwheelassembly.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="wheel assembly" uid="wheel assembly" version="127">
+<ModelUnits mass="kilogram" length="inch"/>
+<AssemblyFile name="wheel assembly.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="chassis assembly" uid="chassis assembly" version="1802">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="chassis assembly.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="motor and wheel assembly" uid="motor and wheel assembly" version="141">
+<ModelUnits mass="kilogram" length="inch"/>
+<AssemblyFile name="motor and wheel assembly.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="motor assembly" uid="motor assembly" version="124">
+<ModelUnits mass="kilogram" length="inch"/>
+<AssemblyFile name="motor assembly.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="motor mount" uid="motor mount" version="107">
+<ModelUnits mass="kilogram" length="inch"/>
+<AssemblyFile name="motor mount.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="back axle encasing x2" uid="back axle encasing x2*:*Default" version="1167">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="back axle encasing x2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.18824977104121846</Mass>
+<CenterOfMass>0.024999999999999998 0.029935314292109126 0.034988138563401598</CenterOfMass>
+<Inertia>0.00013281958251842469 0.00011299360664047796 0.00010420008013842007 6.2329723902527516e-009 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="back axle encasing x2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.50196078431372548" b="1" a="1"/>
+<Diffuse r="1" g="0.50196078431372548" b="1" a="1"/>
+<Specular r="1" g="0.50196078431372548" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="backaxelcut" uid="backaxelcut*:*Default" version="157">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="backaxelcut.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.036853716336876993</Mass>
+<CenterOfMass>0 0 0.17285821354599998</CenterOfMass>
+<Inertia>3.8636430757601932e-005 3.8636430757601932e-005 9.3292471347264795e-007 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="backaxelcut_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="battery mockup" uid="battery mockup*:*Default" version="117">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="battery mockup.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.39329361873294827</Mass>
+<CenterOfMass>0.0013333119702188029 0.012 0</CenterOfMass>
+<Inertia>8.8252419092073838e-005 0.00083227852727538426 0.00078093968985845977 -2.377742794117219e-015 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="battery mockup_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0" b="0" a="1"/>
+<Diffuse r="1" g="0" b="0" a="1"/>
+<Specular r="0.5" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="bearing stopper x2" uid="bearing stopper x2*:*Default" version="368">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="bearing stopper x2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.027892846318697369</Mass>
+<CenterOfMass>0.02978171697572626 0.025000000000000001 -0.0050742147916908176</CenterOfMass>
+<Inertia>6.0973809909842821e-006 8.6377096389573369e-006 1.4250741402116921e-005 0 4.5185934559926393e-010 0</Inertia>
+</MassProperties>
+<GeometryFile name="bearing stopper x2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.50196078431372548" b="1" a="1"/>
+<Diffuse r="1" g="0.50196078431372548" b="1" a="1"/>
+<Specular r="1" g="0.50196078431372548" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="bearing" uid="bearing*:*Default" version="105">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="bearing.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.030527321375348346</Mass>
+<CenterOfMass>0 -1.2601622882953838e-009 0</CenterOfMass>
+<Inertia>2.0727024088695783e-006 2.0726490163827812e-006 3.8394398783712427e-006 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="bearing_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.45294117647058824" g="0.43372549019607842" b="0.41176470588235292" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="bottom plate" uid="bottom plate*:*Default" version="518">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="bottom plate.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.3770127503895186</Mass>
+<CenterOfMass>-0.080934304948316729 -0.034481246014870459 0.0066613958784899896</CenterOfMass>
+<Inertia>0.014630911947727089 0.020800808604207237 0.0071344661572254331 4.9755855589940321e-005 9.7641428914762562e-006 2.2882601683003546e-005</Inertia>
+</MassProperties>
+<GeometryFile name="bottom plate_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.30000000000000004"/>
+<Diffuse r="1" g="1" b="1" a="0.30000000000000004"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.30000000000000004"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.30000000000000004"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="chassis_back" uid="chassis_back*:*Default" version="1329">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="chassis_back.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.19941963040586125</Mass>
+<CenterOfMass>0.13345117203044982 -2.9890558817714582e-005 0.023990376158960689</CenterOfMass>
+<Inertia>0.00072164400564149087 0.00011109536700207145 0.00070821789259739143 8.2671086633292263e-008 5.7384742273004451e-006 -6.6772865135548921e-008</Inertia>
+</MassProperties>
+<GeometryFile name="chassis_back_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.50196078431372548" b="1" a="1"/>
+<Diffuse r="1" g="0.50196078431372548" b="1" a="1"/>
+<Specular r="1" g="0.50196078431372548" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="chassis_center_left" uid="chassis_center_left*:*Default" version="1309">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="chassis_center_left.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.14339593113502169</Mass>
+<CenterOfMass>0.017301335732940449 -0.081258280795893464 0.020941421986117946</CenterOfMass>
+<Inertia>0.000130493308194216 0.00022685840488802066 0.00026329449901531363 4.9516906121009288e-006 1.3431561713430376e-005 -5.869768528973106e-005</Inertia>
+</MassProperties>
+<GeometryFile name="chassis_center_left_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0" g="1" b="0" a="1"/>
+<Diffuse r="0" g="1" b="0" a="1"/>
+<Specular r="0" g="1" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="chassis_center_right" uid="chassis_center_right*:*Default" version="1301">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="chassis_center_right.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.1313923520082165</Mass>
+<CenterOfMass>0.016482497071075949 0.084561262425275702 0.017914367713439055</CenterOfMass>
+<Inertia>0.00010307760745797467 0.00022132078743522976 0.00024811606496450762 -1.5429595358804547e-005 2.2738036506803797e-005 5.0734911970333092e-005</Inertia>
+</MassProperties>
+<GeometryFile name="chassis_center_right_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0" g="1" b="0" a="1"/>
+<Diffuse r="0" g="1" b="0" a="1"/>
+<Specular r="0" g="1" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="chassis_front" uid="chassis_front*:*Default" version="1258">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="chassis_front.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.17874823706012008</Mass>
+<CenterOfMass>-0.13538604779906535 3.3347261433648904e-005 0.023815795258273324</CenterOfMass>
+<Inertia>0.00061687419149818667 9.8315450324192537e-005 0.00060317611246505796 -8.3711722214739753e-008 -5.1712038680976661e-006 -7.8306203332739908e-008</Inertia>
+</MassProperties>
+<GeometryFile name="chassis_front_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.50196078431372548" b="1" a="1"/>
+<Diffuse r="1" g="0.50196078431372548" b="1" a="1"/>
+<Specular r="1" g="0.50196078431372548" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="motor encasing x2" uid="motor encasing x2*:*Default" version="1285">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="motor encasing x2.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.17337914480618755</Mass>
+<CenterOfMass>7.0233762622702052e-005 0.041626466346709773 4.9473285187287587e-007</CenterOfMass>
+<Inertia>0.00015020788120857456 0.00012929750074255067 0.00016375522208113318 2.6081267833527122e-009 6.0243964351723009e-012 1.3717059218763348e-008</Inertia>
+</MassProperties>
+<GeometryFile name="motor encasing x2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.50196078431372548" b="1" a="1"/>
+<Diffuse r="1" g="0.50196078431372548" b="1" a="1"/>
+<Specular r="1" g="0.50196078431372548" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="motor mockup" uid="motor mockup*:*Default" version="121">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="motor mockup.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.30878264596594313</Mass>
+<CenterOfMass>0 -2.8907435465019851e-006 0.039479419508401045</CenterOfMass>
+<Inertia>0.00019678030031670734 0.00019678186496704001 6.2722698710254964e-005 4.39348532842798e-008 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="motor mockup_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.68627450980392157" g="0.6588235294117647" b="0.63921568627450975" a="1"/>
+<Diffuse r="0.68627450980392157" g="0.6588235294117647" b="0.63921568627450975" a="1"/>
+<Specular r="0.34313725490196079" g="0.32941176470588235" b="0.31960784313725488" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="motor mount" uid="motor mount*:*Default" version="109">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="motor mount.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0088878695204620897</Mass>
+<CenterOfMass>-8.2740941592523208e-008 0.0036687018358812352 2.9906597676342143e-007</CenterOfMass>
+<Inertia>1.5143838089849534e-006 2.714814045151313e-006 1.4666221235672865e-006 2.1167190972549663e-011 4.6320872521073443e-012 1.5836131580544583e-011</Inertia>
+</MassProperties>
+<GeometryFile name="motor mount_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="omniwheel-simmechanics" uid="omniwheel-simmechanics*:*Default" version="383">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="omniwheel-simmechanics.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.30718999042191653</Mass>
+<CenterOfMass>0 0.0082550000000000019 0</CenterOfMass>
+<Inertia>0.00045289788518870869 0.00089184012399271678 0.00045289788518870875 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="omniwheel-simmechanics_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Diffuse r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Specular r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="tire" uid="tire*:*Default" version="105">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="tire.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.046339593192244351</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0.0001267366468964507 0.00024991908753059153 0.00012673664689644994 0 0 1.2740288164917956e-010</Inertia>
+</MassProperties>
+<GeometryFile name="tire_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.29803921568627451" g="0.29803921568627451" b="0.29803921568627451" a="1"/>
+<Diffuse r="0.29803921568627451" g="0.29803921568627451" b="0.29803921568627451" a="1"/>
+<Specular r="0.14901960784313725" g="0.14901960784313725" b="0.14901960784313725" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.80000001192092896</Shininess>
+</VisualProperties>
+</Part>
+<Part name="top plate" uid="top plate*:*Default" version="848">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="top plate.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.3770127503895186</Mass>
+<CenterOfMass>-0.080934304948316729 -0.034481246014870459 0.0066613958784899896</CenterOfMass>
+<Inertia>0.014630911947727089 0.020800808604207237 0.0071344661572254331 4.9755855589940321e-005 9.7641428914762562e-006 2.2882601683003546e-005</Inertia>
+</MassProperties>
+<GeometryFile name="top plate_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.30000000000000004"/>
+<Diffuse r="1" g="1" b="1" a="0.30000000000000004"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.30000000000000004"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.30000000000000004"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="wheel" uid="wheel*:*Default" version="131">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="wheel.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.14245896994751028</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0.0002288591135172339 0.00045060937979071269 0.00022885911351723366 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="wheel_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.10196078431372549" g="0.10196078431372549" b="0.10196078431372549" a="1"/>
+<Diffuse r="0.071372549019607837" g="0.071372549019607837" b="0.071372549019607837" a="1"/>
+<Specular r="0.0050980392156862748" g="0.0050980392156862748" b="0.0050980392156862748" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
